@@ -4,7 +4,7 @@ In deze repository staan twee componenten, een "guest app" genaamd myOrder en ee
 myOrder_admin_final. 
 
 ## Hoe te gebruiken
-myOrder_admin_final bestaat op dit moment uit twee folders: www en scss. Hieraan zijn de templates (.html bestanden) en styling (.css bestanden)
+myOrder_admin_final bestaat op dit moment uit twee folders: www en scss. Hierin zijn de templates (.html bestanden) en styling (.css bestanden)
 te vinden. De rest van het Ionic-project dient te gebruiker zelf aan te maken. 
 
 ```
