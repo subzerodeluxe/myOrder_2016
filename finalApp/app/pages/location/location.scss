@@ -1,0 +1,20 @@
+.location {
+    background-color: #009a88;
+}
+
+.header {
+ text-align: center;
+ font-size: 18px;
+ color: #fff;
+ margin-top: 20px;
+ margin-bottom: 50px;
+}
+
+button .item .location {
+    background-color: #fff
+}
+
+ion-icon[item-left] + .item-inner, ion-icon[item-left] + .item-input {
+    margin-left: 20px;
+    color: #fff;
+}

@@ -1,0 +1,33 @@
+
+<ion-content padding class="login">
+  <img src="img\myOrderLogo.png">
+ 
+  <form [formGroup]="loginForm" (submit)="loginUser()" novalidate>
+ 
+    <ion-item>
+      <ion-label stacked>Email</ion-label>
+      <ion-input formControlName="email" type="email" 
+        placeholder="Je emailadres"></ion-input>
+    </ion-item>
+ 
+    <ion-item>
+      <ion-label stacked>Password</ion-label>
+      <ion-input formControlName="password" type="password" 
+        placeholder="Je wachtwoord"></ion-input>
+    </ion-item>
+ 
+    <button btn-green block large type="submit">
+          LOGIN
+    </button>
+
+  </form>
+ 
+    <button block clear (click)="goToSignup()">
+      <p>Registreer nieuw account</p>
+    </button>
+ 
+    <button block clear (click)="goToResetPassword()">
+      <p>Wachtwoord vergeten</p>
+    </button>
+ 
+</ion-content>

@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar btn-green primary>
+    <ion-title> 
+      Registreer een profiel 
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="signup">
+  <form [formGroup]="signupForm" (submit)="signupUser()" novalidate>
+
+    <ion-item>
+      <ion-label stacked>Email</ion-label>
+      <ion-input formControlName="email" type="email"
+        placeholder="Je emailadres"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label stacked>Wachtwoord</ion-label>
+      <ion-input formControlName="password" type="password"
+        placeholder="Verzin een wachtwoord"></ion-input>
+    </ion-item>
+     
+     <ion-item>
+      <ion-label stacked>Gebruikersnaam</ion-label>
+      <ion-input formControlName="username" type="text" 
+        placeholder="Verzin een gebruikersnaam"></ion-input>
+    </ion-item>
+
+    <button btn-green block type="submit">
+      Create an Account
+    </button>
+  </form>
+</ion-content>

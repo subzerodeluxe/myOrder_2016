@@ -1,0 +1,45 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Shared Imports
+// --------------------------------------------------
+// These are the imports which make up the design of this app.
+// By default each design mode includes these shared imports.
+// App Shared Sass variables belong in app.variables.scss.
+
+@import "../pages/home/home";
+@import "../pages/login/login";
+@import "../pages/signup/signup";
+@import "../pages/reset-password/reset-password";
+@import "../pages/location/location";
+
+// maak buitenste labels wit
+ion-label[stacked] {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.item-label-stacked .text-input, .item-label-floating .text-input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0;
+    width: calc(100% - 8px);
+    color: #fff;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+   	width: 250px;
+	height: 127px; 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px
+}
+.item .location {
+    background-color: #fff
+}
